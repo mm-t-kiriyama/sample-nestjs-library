@@ -81,7 +81,8 @@
     "moduleNameMapper": {
       "^@app/my-library(|/.*)$": "<rootDir>/libs/my-library/src/$1",
       "^@app/job-offers(|/.*)$": "<rootDir>/libs/job-offers/src/$1",
-      "^shared-module/prefectures(|/.*)$": "<rootDir>/libs/prefectures/src/$1"
+      "^shared-module/prefectures(|/.*)$": "<rootDir>/libs/prefectures/src/$1",
+      "^@shared-modules/cities(|/.*)$": "<rootDir>/libs/cities/src/$1"
     }
   }
 }

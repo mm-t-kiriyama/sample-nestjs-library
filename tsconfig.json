@@ -18,23 +18,17 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/my-library": [
-        "libs/my-library/src"
-      ],
-      "@app/my-library/*": [
-        "libs/my-library/src/*"
-      ],
-      "@app/job-offers": [
-        "libs/job-offers/src"
-      ],
-      "@app/job-offers/*": [
-        "libs/job-offers/src/*"
-      ],
-      "shared-module/prefectures": [
+      "@shared-modules/prefectures": [
         "libs/prefectures/src"
       ],
-      "shared-module/prefectures/*": [
+      "@shared-modules/prefectures/*": [
         "libs/prefectures/src/*"
+      ],
+      "@shared-modules/cities": [
+        "libs/cities/src"
+      ],
+      "@shared-modules/cities/*": [
+        "libs/cities/src/*"
       ]
     }
   }

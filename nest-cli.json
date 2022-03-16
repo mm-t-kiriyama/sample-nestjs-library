@@ -28,6 +28,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/prefectures/tsconfig.lib.json"
       }
+    },
+    "cities": {
+      "type": "library",
+      "root": "libs/cities",
+      "entryFile": "index",
+      "sourceRoot": "libs/cities/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/cities/tsconfig.lib.json"
+      }
     }
   },
   "compilerOptions": {
