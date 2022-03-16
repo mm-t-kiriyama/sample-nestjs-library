@@ -2,24 +2,6 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
   "projects": {
-    "my-library": {
-      "type": "library",
-      "root": "libs/my-library",
-      "entryFile": "index",
-      "sourceRoot": "libs/my-library/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/my-library/tsconfig.lib.json"
-      }
-    },
-    "job-offers": {
-      "type": "library",
-      "root": "libs/job-offers",
-      "entryFile": "index",
-      "sourceRoot": "libs/job-offers/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/job-offers/tsconfig.lib.json"
-      }
-    },
     "prefectures": {
       "type": "library",
       "root": "libs/prefectures",
