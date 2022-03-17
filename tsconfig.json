@@ -29,6 +29,12 @@
       ],
       "@shared-modules/cities/*": [
         "libs/cities/src/*"
+      ],
+      "@shared-module/areas": [
+        "libs/areas/src"
+      ],
+      "@shared-module/areas/*": [
+        "libs/areas/src/*"
       ]
     }
   }
